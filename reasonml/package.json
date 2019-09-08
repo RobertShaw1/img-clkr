@@ -1,0 +1,18 @@
+{
+  "name": "reasonml",
+  "repository": "https://github.com/RobertShaw1/img-clkr.git",
+  "author": "Robert Shaw <r.shaw1@yahoo.com>",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "devDependencies": {
+    "bs-platform": "^5.0.4"
+  }
+}

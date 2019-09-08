@@ -1,0 +1,12 @@
+.clickable, .pointer {
+  cursor: pointer;
+}
+
+
+.rounded-sm {
+  border-radius: 8px;
+}
+
+.img-clk {
+  display: block;
+}

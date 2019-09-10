@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "https://github.com/RobertShaw1/img-clkr.git",
   "author": "Robert Shaw <r.shaw1@yahoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
 }

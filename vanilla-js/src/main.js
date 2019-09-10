@@ -15,9 +15,9 @@ class BeautifulImg {
 
 }
 
-const beautifulImgList = [];
 
 function configureImages(imgCollection) {
+  const beautifulImgList = [];
   for (let i = 0; i < imgCollection.length; i++) {
     const img = imgCollection[i];
     beautifulImgList.push(new BeautifulImg(img, i));

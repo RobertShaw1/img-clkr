@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "presets": [
+    ["@babel/env", {"modules": false}]
+    // "modules": false, otherwise Babel will convert our modules before Rollup gets a chance to do its thing, causing it to fail
+  ]
+}

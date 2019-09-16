@@ -1,12 +1,61 @@
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
 .clickable, .pointer {
   cursor: pointer;
 }
-
 
 .rounded-sm {
   border-radius: 8px;
 }
 
-.img-clk {
-  display: block;
+.center-text {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-35 {
+  width: 35rem;
+}
+
+.h-25 {
+  height: 25rem;
+}
+
+
+img {
+  height: 100%;
+  width: 100%;
 }

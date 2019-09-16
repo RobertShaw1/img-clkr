@@ -6,13 +6,18 @@
   "author": "Robert Shaw <r.shaw1@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.0",
+    "jest": "^24.9.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.3"
   }
 }

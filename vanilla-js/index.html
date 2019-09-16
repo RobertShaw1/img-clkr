@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMG CLKR</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+      body {
+        box-sizing: border-box;
+        color: #444;
+        font-family: sans-serif;
+        margin: 0;
+      }
+      #main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <img
-        src="./assets/dandelion.jpg"
-        alt="dandelion"
-        class="clickable img-clk rounded-sm"
-      >
-      Number of times clicked:
-      <span class="counter">0</span>
-    </div>
+    <main id="main">
+    </main>
     <script async type="application/javascript" src="bundle.js"></script>
   </body>
 </html>

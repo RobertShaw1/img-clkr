@@ -6,7 +6,7 @@ export default {
   output: {
     compact: true,
     file: 'bundle.js',
-    format: 'iife',
+    format: 'esm',
   },
   plugins: [
     resolve(),
